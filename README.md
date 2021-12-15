@@ -18,7 +18,7 @@
 - Switch View (2D and 3D)
 - Busca Rápida
 - Measurement
-- Ferramenta de Coordenandas
+- Ferramenta de Coordenadas
 - Legendas
 - Botão Home - Initial Extent
 - Botões de Zoom In e Zoom Out
