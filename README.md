@@ -10,18 +10,19 @@
 <img src="./static/images/thumb.jpg" alt="thumb" />
 <hr/>
 <h3>🏆 Principais Widgets Disponibilizados <i>(Ferramentas de Interface)</i> </h3>
--Lista de Camadas
--Galeria de Mapas Base
--Ferramenta de Impressão
--Google Street View
--Switch View (2D and 3D)
--Busca Rápida
--Measurement
--Ferramenta de Coordenandas
--Legendas
--Botão Home - Initial Extent
--Botões de Zoom In e Zoom Out
--Bússola
--3D Rotate and Move
--Barra de Escala
--UI
+
+- Lista de Camadas
+- Galeria de Mapas Base
+- Ferramenta de Impressão
+- Google Street View
+- Switch View (2D and 3D)
+- Busca Rápida
+- Measurement
+- Ferramenta de Coordenandas
+- Legendas
+- Botão Home - Initial Extent
+- Botões de Zoom In e Zoom Out
+- Bússola
+- 3D Rotate and Move
+- Barra de Escala
+- UI
