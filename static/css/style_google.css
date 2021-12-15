@@ -1,0 +1,58 @@
+/*
+  Estilos Do Google Street View
+  Desenvolvido por Mackson Araujo | Tecgeo
+*/
+#map {
+    height: 100%;
+}
+
+.gm-style-cc {
+    display: none !important;
+}
+
+.gm-style a[href^="https://maps.google.com/maps"] {
+    display: none !important;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.street-view {
+    height: 100%;
+}
+
+.message-error {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.message-error--show {
+    display: block;
+}
+
+.message-error__content {
+    width: 80%;
+    max-width: 400px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: bold;
+    font-size: 20px;
+}
+
+.message-error__container {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.message-error__imagem {
+    object-fit: cover;
+    width: 100%;
+}

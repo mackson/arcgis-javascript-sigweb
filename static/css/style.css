@@ -1,0 +1,133 @@
+/*
+  Estilos do SIGWEB
+  Desenvolvido por Mackson Araujo
+*/
+   
+html,
+body,
+#sigweb__viewDiv {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.sigweb__buttonView {
+  height: 32px;
+  width: 32px;
+}
+
+.sigweb__buttonView input {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px;
+}
+
+.sigweb__buttonViewExtra {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px;
+}
+
+#sigweb__loadingMap {
+  background-color: transparent;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0) 0px 1px 2px;
+}
+
+#sigweb__logoDiv {
+  padding: 6px;
+  background-color: rgb(44, 44, 44);
+  text-align: center;
+  font-size: 16px;
+  width: 250px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px;
+}
+
+#sigweb__logosigwebDiv {
+  padding: 6px;
+  text-align: center;
+  font-size: 16px;
+  background-color: transparent;
+  border:none;
+  width: 150px;
+  box-shadow: rgba(0, 0, 0, 0) 0px 1px 2px;
+}
+
+.esri-icon-non-visible::before {
+  content: "\e610" !important;
+}
+
+.esri-icon-visible::before {
+  content: "\e611" !important;
+}
+
+.esri-icon-right::before {
+  content: \ue62b !important;
+}
+
+.esri-icon-left::before {
+  content: \ue62a !important;
+}
+
+.esri-icon-maps::before {
+  content: url('../images/colorSVM.png') !important;
+}
+
+.esri-view .esri-view-surface--inset-outline:focus::after {
+  outline: none !important;
+}
+
+.sigweb__centered{
+  height: 100%;
+  width: 100%;
+	position:absolute;
+	top:0%;
+	left:0%;
+  background:#fff;
+  overflow: hidden;
+  z-index: 9;
+}
+
+#sigweb__loader {
+  display: block;
+  position: relative;
+  left: 46%;
+  top: 40%;
+  width: 200px;
+  height: 200px;
+}
+
+.google-street-view {
+  width: 300px;
+  padding: 0.5em;
+  background-color: #6334d0;
+}
+
+.google-street-view__div--padding-left {
+  padding-left: 4px;
+}
+
+.google-street-view__paragraph {
+  display: block;
+  padding: 0.1em;
+}
+
+.google-street-view__button {
+  margin: 0 auto;
+  display: block;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px;
+  padding-top: 10px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-weight: bold;
+  background-color: rgb(41, 34, 87);
+  color: #f1f1ff;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.green {
+  background-color: rgb(3, 163, 3);
+}

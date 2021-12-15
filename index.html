@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <title>
+      Arcgis Sigweb by Mackson Araujo
+    </title>
+
+    <!--Main Styles-->
+    <link
+      rel="stylesheet"
+      href="https://js.arcgis.com/4.21/esri/themes/dark-purple/main.css"
+    />
+
+    <link rel="stylesheet" href="/static/css/style.css">
+    
+  </head>
+
+  <body>
+         
+      <div id="sigweb__viewDiv">
+        <div class="sigweb__centered">
+          <div id="sigweb__loader">
+            
+            <img width="100" height="100" src="/static/images/loader.gif"/>
+          </div>
+        </div>
+
+        <div id="sigweb__logoDiv" class="esri-widget">
+          <img src="/static/images/logoapp.png" alt="Logo App" />
+        </div>
+
+        <div class="sigweb__buttonView" id="sigweb__buttonChangeView">
+          <input
+            class="esri-component esri-widget--button esri-widget esri-interactive"
+            type="button"
+            id="sigweb__switch-btn"
+            value="3D"
+            title="Mudar para Visualização 3D ou 2D"
+          />
+        </div>
+  
+        <button
+          id="sigweb__distance"
+          class="sigweb__buttonViewExtra esri-widget--button esri-interactive esri-icon-measure-line"
+          title="Distance Measurement Tool"
+        ></button>
+        <button
+          id="sigweb__area"
+          class="sigweb__buttonViewExtra esri-widget--button esri-interactive esri-icon-measure-area"
+          title="Area Measurement Tool"
+        ></button>
+        <button
+          id="sigweb__clear"
+          class="sigweb__buttonViewExtra esri-widget--button esri-interactive esri-icon-trash"
+          title="Clear Measurements"
+        ></button>
+
+        <div id="sigweb__loadingMap" class="esri-widget">
+          <img width="32" height="32" src="/static/images/loader.gif"/>
+        </div>
+    
+        <div id="sigweb__logosigwebDiv">
+          <a href="https://codestation.com.br" target="_blank">
+            <img src="/static/images/logoSIGWEB.png" alt="Logo" />
+          </a>
+        </div>
+
+        <!--Street View Widget HTML-->
+        <div id="streetViewWindow" class="google-street-view">
+          <div class="google-street-view__div--padding-left">
+              <p class="google-street-view__paragraph">
+                Clique no botão logo a baixo e insira o ponto no mapa para iniciar
+              </p>
+              <p class="google-street-view__paragraph">
+                <a href="#" id="startWidget" class="google-street-view__button">
+                  <img src="/static/images/graySVM.png" alt="StreetViewPoint" />
+                </a>
+              </p>
+            </div>
+        </div>
+      </div>
+      
+    
+    <!--Scripts do Geoportal-->
+    <script src="https://js.arcgis.com/4.21/"></script>
+    <script src="/static/js/app.js"></script>
+   
+  </body>
+</html>
